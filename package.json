@@ -1,0 +1,29 @@
+{
+  "name": "crypto-mmo-sdk",
+  "version": "1.0.4",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "readme": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/index.ts --dts --format cjs,esm",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ghant2906/paylinker-sdk"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "axios": "^1.7.9",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  }
+}
