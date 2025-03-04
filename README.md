@@ -38,10 +38,10 @@ yarn add crypto-mmo-sdk
 To use the SDK, you need a valid API key from CryptoMMO. Below is a basic example for initializing and using the API:
 
 ```typescript
-import { PayLinkSDK } from "crypto-mmo-sdk";
+import { CryptoMMOSDK } from "crypto-mmo-sdk";
 
 const apiKey = "YOUR_API_KEY_HERE";
-const sdk = new PayLinkSDK(apiKey);
+const sdk = new CryptoMMOSDK(apiKey);
 
 // Example: Create a new transaction
 const transactionData = {

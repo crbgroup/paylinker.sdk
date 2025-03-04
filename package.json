@@ -18,7 +18,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ghant2906/paylinker-sdk"
+    "url": "https://github.com/crbgroup/paylinker.sdk.git"
   },
   "devDependencies": {
     "@types/node": "^22.13.1",

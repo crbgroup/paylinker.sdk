@@ -4,7 +4,7 @@ export class CryptoMMOClient {
   private client: AxiosInstance;
 
   constructor(apiKey: string) {
-    const baseURL = 'https://paylinker-api.crbgroup.live/';
+    const baseURL = 'https://api.cryptommo.net/';
 
     this.client = axios.create({
       baseURL,
